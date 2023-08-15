@@ -1,0 +1,74 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+  *{
+    margin:0;
+    padding:0;
+  }
+  .container{
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(to right, cyan,purple);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .digital-clock{
+    border-radius: 27px;
+    position:relative;
+    height: 19vw;
+    width: 45vw;
+    background: linear-gradient(to right, grey,black);
+    color:white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+  .time{
+    font-size: 5vw;
+    position: absolute;
+    top:15%;
+     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .show{
+    color:#43d6cc;
+    width: 45vw;
+    font-size: 2vw;
+    position: absolute;
+    top:65%;
+     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+   .time .elements{
+    padding:1vw;
+  }
+  .show .elements1{
+    position:absolute;
+    left: 4vw;
+  }
+  .show .elements2{
+    position:absolute;
+    left: 14vw;
+  }
+  .show .elements3{
+    position:absolute;
+    left: 22.5vw;
+  }
+  .show .elements4{
+    position:absolute;
+    left: 30.5vw;
+  }
+  .show .elements5{
+    position:absolute;
+    left: 39.5vw;
+  }
